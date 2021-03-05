@@ -1,6 +1,7 @@
-#ifndef _CONSOLE_WINDOWS_H
-#define _CONSOLE_WINDOWS_H
+#ifndef _CONSOLE_H
+#define _CONSOLE_H
 
+// windows
 #include <windows.h>
 
 void WINDOWS_clearScreen() {
