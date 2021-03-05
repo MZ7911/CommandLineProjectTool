@@ -11,3 +11,6 @@ A simple collections of command-line project tools.
 - asker;
 - slow printer;
 - ...
+# Compile command
+Something like this:
+`<compiler> "main.cpp" -o "main.exe" -std=c++14`
