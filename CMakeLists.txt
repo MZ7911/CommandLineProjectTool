@@ -1,6 +1,6 @@
 # cmake_minimum_required(VERSION <specify CMake version here>)
-project(noname_main)
+project(CommandLineProjectTool)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(noname_main main.cpp)
+add_executable(CommandLineProjectTool main.cpp)
