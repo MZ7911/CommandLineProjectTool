@@ -12,5 +12,5 @@ A simple collections of command-line project tools.
 - slow printer;
 - ...
 # Compile command
-Something like this:
-`<compiler> "main.cpp" -o "main.exe" -std=c++14`
+Use CMake or just use something like this:
+`<compiler> "main.cpp" -o "main.exe" -std=c++14"`
