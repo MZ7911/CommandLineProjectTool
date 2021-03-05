@@ -1,5 +1,5 @@
-#ifndef _CONSOLE_H
-#define _CONSOLE_H
+#ifndef CONSOLE_H
+#define CONSOLE_H
 
 // windows
 #include <windows.h>
