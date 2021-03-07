@@ -197,6 +197,15 @@ class console {
                }
           }
      }
+
+     void displayPic(std::string wd_str[1920][1080], std::string cl_str[1920][1080]){
+          //throw "Not a match string combination.";
+          for(int i = 1;i <= 1920;++i){
+               for(int j = 1;j <= 1080;++j){
+                    outputControl(cl_str[i][j], "", wd_str[i][j]);
+               }
+          }
+     }
      
      friend std::istream &operator >> (std::istream &fin, console a){
           fin>>a.consloe_string;
