@@ -17,6 +17,7 @@ int main(){
     // std::cout << Test << std::endl;
     // std::cout << tst << std::endl;
     // outputControl(RED, "", " A");
+    console Test;
     std::cout<<APPSCREEN<<std::endl;
     return 0;
 }

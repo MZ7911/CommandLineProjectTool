@@ -137,12 +137,12 @@ void outputControl(std::string outputcolor = "", std::string effects = "", std::
      std::cout<<str;
 }
 
-void outputControl(std::string outputColor = "", std::string effects = "", char str = ' ', bool isEndl = false){
-     std::cout<<outputColor;
-     std::cout<<effects;
-     if(!isEndl) std::cout<<str;
-     else std::cout<<str<<std::endl;
-}
+// void outputControl(std::string outputColor = "", std::string effects = "", char str = ' ', bool isEndl = false){
+//      std::cout<<outputColor;
+//      std::cout<<effects;
+//      if(!isEndl) std::cout<<str;
+//      else std::cout<<str<<std::endl;
+// }
 
 #endif
 
@@ -189,10 +189,12 @@ class console {
           consloe_string = str;
      }
 
-     void displayPic(std::string wd_str, std::string cl_str[wd_str.length()]){
-          if(wd_str.size() != cl_str->size()) throw "Not a match string combination.";
-          for(int i = 1;i <= wd_str.length();++i){
-               outputControl(cl_str[i], "", wd_str[i], false);
+     void displayPic(std::string wd_str[1280][720], std::string cl_str[1280][720]){
+          //throw "Not a match string combination.";
+          for(int i = 1;i <= 1280;++i){
+               for(int j = 1;j <= 720;++j){
+                    outputControl(cl_str[i][j], "", wd_str[i][j]);
+               }
           }
      }
      
