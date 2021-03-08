@@ -1,3 +1,0 @@
-/Users/markzhou/Documents/GitHub/CommandLineProjectTool/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/markzhou/Documents/GitHub/CommandLineProjectTool/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/markzhou/Documents/GitHub/CommandLineProjectTool/cmake-build-debug/CMakeFiles/CommandLineProjectTool.dir
